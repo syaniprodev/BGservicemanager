@@ -39,6 +39,17 @@ jobs:
       - name: Build debug APK
         run: ./gradlew assembleDebug
 
+      - name: Cek isi folder output  # ⬅️ STEP BARU
+        run: |
+          echo "=== Mencari semua file .apk ==="
+          find . -name "*.apk" -type f || echo "TIDAK ADA FILE .APK"
+          echo ""
+          echo "=== Isi folder app/build/outputs (kalau ada) ==="
+          ls -R app/build/outputs/ 2>/dev/null || echo "Folder app/build/outputs tidak ada"
+          echo ""
+          echo "=== Daftar folder di root project ==="
+          ls -la
+
       - name: Upload APK ke Artifacts
         uses: actions/upload-artifact@v7
         with:
