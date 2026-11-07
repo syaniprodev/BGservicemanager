@@ -18,7 +18,7 @@
         android:ellipsize="end"/>
 
     <TextView
-        android:id="@+id/svc_type"
+        android:id="@+id/svcType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="10sp"
@@ -26,7 +26,7 @@
         android:layout_marginEnd="6dp"/>
 
     <TextView
-        android:id="@+id/svc_dur"
+        android:id="@+id/svcDur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingHorizontal="5dp"
@@ -37,7 +37,7 @@
         android:layout_marginEnd="4dp"/>
 
     <TextView
-        android:id="@+id/svc_watt"
+        android:id="@+id/svcWatt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingHorizontal="5dp"
