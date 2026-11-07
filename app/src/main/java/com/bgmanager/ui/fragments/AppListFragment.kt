@@ -1,6 +1,6 @@
 package com.bgmanager.ui.fragments
 
-import com.bgmanager.data.models.SortMode
+
 
 import android.os.Bundle
 import android.view.LayoutInflater
