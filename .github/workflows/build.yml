@@ -37,7 +37,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build debug APK
-        run: ./gradlew assembleDebug
+        run: ./gradlew assembleDebug --info
 
       - name: Cek isi folder output  # ⬅️ STEP BARU
         run: |
